@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 2fr 2fr 2fr 2fr;
-  grid-template-areas: " encabezado encabezado" " section    section" " articulo   aside" " footer     footer";
+  grid-template-areas: " encabezado encabezado" " section    aside" " articulo   aside" " footer     footer";
 }
 
 .header {
