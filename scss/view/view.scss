@@ -1,0 +1,41 @@
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-areas: 
+                        " encabezado encabezado"
+                        " section    section"
+                        " articulo   aside"
+                        " footer     footer";
+}
+
+.header{
+    grid-area: encabezado;
+    border-style: groove;
+    background-color: red;
+}
+
+.section{
+    grid-area: section;
+    border-style: groove;
+    background-color: coral;
+}
+
+.section2{
+    grid-area: articulo;
+    border-style: groove;
+    background-color: rgb(80, 144, 255);
+}
+
+.aside{
+    grid-area: aside;
+    border-style: groove;
+    background-color: rgb(18, 159, 72);
+}
+
+.footer{
+    grid-area: footer;
+    border-style: groove;
+    background-color: rgb(252, 80, 255);
+}
+

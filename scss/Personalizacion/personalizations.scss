@@ -1,0 +1,26 @@
+.header--imagen {
+    height: 400px;
+    background-image: url(https://previews.123rf.com/images/izakowski/izakowski1206/izakowski120600018/14008547-cartoon-ilustraci%C3%B3n-de-african-safari-dise%C3%B1o-de-cabecera-de-los-animales-salvajes.jpg);
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    align-items: flex-end;
+    justify-items: flex-end;
+    li {
+        color: red;
+        padding: 10px;
+        margin: 8px;
+        border-style:dashed;
+        border-radius: 15px;
+        background-color: cadetblue;
+        list-style: none;
+        list-style-type: none;
+    }
+}
+
+.img--logo {
+    height: 200px;
+}

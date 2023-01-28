@@ -1,1 +1,71 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  grid-template-areas: " encabezado encabezado" " section    section" " articulo   aside" " footer     footer";
+}
+
+.header {
+  grid-area: encabezado;
+  border-style: groove;
+  background-color: red;
+}
+
+.section {
+  grid-area: section;
+  border-style: groove;
+  background-color: coral;
+}
+
+.section2 {
+  grid-area: articulo;
+  border-style: groove;
+  background-color: rgb(80, 144, 255);
+}
+
+.aside {
+  grid-area: aside;
+  border-style: groove;
+  background-color: rgb(18, 159, 72);
+}
+
+.footer {
+  grid-area: footer;
+  border-style: groove;
+  background-color: rgb(252, 80, 255);
+}
+
+.header--imagen {
+  height: 400px;
+  background-image: url(https://previews.123rf.com/images/izakowski/izakowski1206/izakowski120600018/14008547-cartoon-ilustraci%C3%B3n-de-african-safari-dise%C3%B1o-de-cabecera-de-los-animales-salvajes.jpg);
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+.ul li {
+  color: red;
+  padding: 10px;
+  margin: 8px;
+  border-style: dashed;
+  border-radius: 15px;
+  background-color: cadetblue;
+  list-style: none;
+  list-style-type: none;
+}
+
+.img--logo {
+  height: 300px;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */

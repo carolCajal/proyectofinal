@@ -1,1 +1,6 @@
-/*# sourceMappingURL=normalize.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}/*# sourceMappingURL=normalize.css.map */
