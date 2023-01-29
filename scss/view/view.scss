@@ -1,6 +1,6 @@
 .grid{
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 85% 15%;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas: 
                         " encabezado encabezado"
@@ -26,6 +26,7 @@
     display: flex;
     border-style: groove;
     background-color: rgb(80, 144, 255);
+    scroll-padding-block-end: auto;
 }
 
 .aside{

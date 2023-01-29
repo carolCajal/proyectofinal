@@ -7,7 +7,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 85% 15%;
   grid-template-rows: 25% 25% 25% 25%;
   grid-template-areas: " encabezado encabezado" " section    aside" " articulo   aside" " footer     footer";
 }
@@ -29,6 +29,7 @@
   display: flex;
   border-style: groove;
   background-color: rgb(80, 144, 255);
+  scroll-padding-block-end: auto;
 }
 
 .aside {
@@ -68,6 +69,7 @@
 
 .img--logo {
   height: 200px;
+  border-radius: 50%;
 }
 
 .div {
@@ -94,9 +96,28 @@
 
 .galeria {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 .galeria h2 {
+  justify-content: center;
   font-size: 50px;
+}
+
+.div--imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.img--galeria {
+  border-style: double;
+  border-color: crimson;
+  height: 35opx;
+  width: 350px;
+  margin: 2px;
+  padding: 2px;
 }/*# sourceMappingURL=style.css.map */
