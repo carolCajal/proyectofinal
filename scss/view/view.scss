@@ -1,7 +1,7 @@
 .grid{
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
                         " encabezado encabezado"
                         " section    aside"
@@ -23,6 +23,7 @@
 
 .section2{
     grid-area: articulo;
+    display: flex;
     border-style: groove;
     background-color: rgb(80, 144, 255);
 }
