@@ -33,7 +33,7 @@
     justify-content: center;
     h1{
         font-size: 80px;
-        color: brown;
+        color: rgb(231, 243, 10);
         justify-content: center;
     }
 }
@@ -48,6 +48,14 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.img--footer--logo{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .galeria{
@@ -66,8 +74,8 @@
     overflow: scroll;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
+        justify-content: space-around;
+        align-content: space-around;
 }
 
 .img--galeria{
@@ -85,10 +93,19 @@
 }
 
 .facebook{
-    background-color: blue;
-    color: azure;
+    background-color: azure;
+    color: blue;
+    padding: 0;
+    margin: 0;
 }
 
 .linkedin{
-    background-color: rgb(78, 78, 244);
+    color: rgb(78, 78, 244);
+    background-color: azure;
 }
+
+.img--publicidad{
+    height: 945x;
+    width: 245px;
+}
+
