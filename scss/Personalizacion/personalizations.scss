@@ -1,21 +1,23 @@
 .header--imagen {
-    height: 500px;
-    background-image: url(https://previews.123rf.com/images/izakowski/izakowski1206/izakowski120600018/14008547-cartoon-ilustraci%C3%B3n-de-african-safari-dise%C3%B1o-de-cabecera-de-los-animales-salvajes.jpg);
+    overflow: hidden;
+    height: 380px;
+    background-repeat:repeat round;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLOzlQNpvJPLGXduy965Sp-mLLNl2WXzijfAq7Z3ZcfE7yBBWJt5RsVKgYq43PEnz5vQ&usqp=CAU);
 }
 
 .ul {
     display: flex;
     justify-content: space-around;
     color: black;
-    align-items: flex-end;
-    justify-items: flex-end;
+    align-items: flex-start;
+    justify-items: flex-start;
     li {
         color: red;
         padding: 10px;
         margin: 8px;
         border-style:dashed;
         border-radius: 15px;
-        background-color: rgba(12, 234, 64, 0.274);
+        background-color: rgb(12, 234, 64);
         list-style: none;
         list-style-type: none;
     }
@@ -52,7 +54,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
     h2{
         justify-content: center;
         font-size: 50px;
@@ -62,6 +63,7 @@
 
 .div--imagenes{
     display: flex;
+    overflow: scroll;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -77,3 +79,16 @@
     padding: 2px;
 }
 
+.whatsapp{
+    background-color: green;
+    color: azure;
+}
+
+.facebook{
+    background-color: blue;
+    color: azure;
+}
+
+.linkedin{
+    background-color: rgb(78, 78, 244);
+}
