@@ -69,9 +69,14 @@
     
 }
 
+.main--index{
+    display: flex;
+    justify-content: center;
+}
+
 .div--imagenes{
     display: flex;
-    overflow: scroll;
+    overflow-y: auto;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -109,3 +114,6 @@
     width: 248px;
 }
 
+.formulario{
+    overflow-y: auto;
+}

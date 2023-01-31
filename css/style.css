@@ -117,9 +117,14 @@
   font-size: 50px;
 }
 
+.main--index {
+  display: flex;
+  justify-content: center;
+}
+
 .div--imagenes {
   display: flex;
-  overflow: scroll;
+  overflow-y: auto;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
@@ -155,4 +160,8 @@
 .img--publicidad {
   height: 1000px;
   width: 248px;
+}
+
+.formulario {
+  overflow-y: auto;
 }/*# sourceMappingURL=style.css.map */
