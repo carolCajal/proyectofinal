@@ -162,6 +162,11 @@
   width: 248px;
 }
 
+.img--publicad--contact {
+  height: 700px;
+  width: 1350px;
+}
+
 .formulario {
   overflow-y: auto;
 }/*# sourceMappingURL=style.css.map */
