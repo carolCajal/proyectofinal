@@ -124,9 +124,9 @@
 
 .div--imagenes {
   display: flex;
-  overflow-y: auto;
   flex-wrap: wrap;
   flex-direction: row;
+  overflow-y: auto;
   justify-content: space-around;
   align-content: space-around;
 }
