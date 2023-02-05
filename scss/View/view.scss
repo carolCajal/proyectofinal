@@ -2,7 +2,10 @@
     display: grid;
     grid-template-columns: 85% 15%;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: " encabezado encabezado" " section    aside" " articulo   aside" " footer     footer";
+    grid-template-areas: " encabezado encabezado" 
+                        " section    aside" 
+                        " articulo   aside" 
+                        " footer     footer";
 }
 
 .header {
@@ -38,4 +41,30 @@
     grid-area: footer;
     border-style: groove;
     background-color: rgb(252, 80, 255);
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        display:grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:    "encabezado"
+                                "section"
+                                "articulo"
+                                "aside"
+                                "footer";
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto ;
+        grid-template-areas:    "encabezado"
+                                "section"
+                                "articulo"
+                                "aside"
+                                "footer";
+    }
 }
