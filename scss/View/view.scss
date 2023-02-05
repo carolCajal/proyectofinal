@@ -12,14 +12,13 @@
     overflow: hidden;
     grid-area: encabezado;
     border-style: groove;
-    background-color: red;
 }
 
 .section {
     height: 400px;
     grid-area: section;
     border-style: groove;
-    background-color: coral;
+    background-color: coral
 }
 
 .section2 {
@@ -27,7 +26,6 @@
     display: flex;
     border-style: groove;
     background-color: rgb(80, 144, 255);
-    overflow: visible;
 }
 
 .aside {
@@ -74,11 +72,6 @@
         }
     }
 
-    .img--publicad--contact{
-        width: auto;
-        height: auto;
-    }
-
     .img--logo {
         height: 100px;
         border-radius: 50%;
@@ -116,10 +109,10 @@
     }
 
     .img--publicad--contact{
-        width: auto;
-        height: auto;
+        width: 20px;
+        height: 80px;
     }
-
+    
     .img--logo {
         height: 80px;
         border-radius: 50%;
