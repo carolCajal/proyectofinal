@@ -72,12 +72,16 @@
     list-style: none;
     list-style-type: none;
   }
+  .img--publicad--contact {
+    width: auto;
+    height: auto;
+  }
   .img--logo {
     height: 100px;
     border-radius: 50%;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -90,7 +94,6 @@
     color: black;
     align-items: center;
     justify-items: center;
-    flex-direction: column;
   }
   .ul li {
     color: red;
@@ -101,6 +104,10 @@
     background-color: rgb(12, 234, 64);
     list-style: none;
     list-style-type: none;
+  }
+  .img--publicad--contact {
+    width: auto;
+    height: auto;
   }
   .img--logo {
     height: 80px;

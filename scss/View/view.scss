@@ -74,6 +74,11 @@
         }
     }
 
+    .img--publicad--contact{
+        width: auto;
+        height: auto;
+    }
+
     .img--logo {
         height: 100px;
         border-radius: 50%;
@@ -98,7 +103,6 @@
         color: black;
         align-items: center;
         justify-items: center;
-        flex-direction: column;
         li {
             color: red;
             padding: 10px;
@@ -109,6 +113,11 @@
             list-style: none;
             list-style-type: none;
         }
+    }
+
+    .img--publicad--contact{
+        width: auto;
+        height: auto;
     }
 
     .img--logo {
