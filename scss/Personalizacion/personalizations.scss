@@ -75,7 +75,6 @@
 .div--imagenes{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     overflow-y: auto;   
     justify-content: space-around;
     align-content: space-around;
@@ -134,4 +133,10 @@
 .div--sections1y2{
     border-style: double;
     overflow: hidden;
+}
+
+.div--petshop--cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
