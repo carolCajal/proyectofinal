@@ -104,4 +104,11 @@
     .quienes--somos{
         overflow-y: hidden;
     }
+
+    .div--petshop--cards{
+        display: flex;
+        overflow-y:auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
