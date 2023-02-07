@@ -90,20 +90,20 @@
 }
 
 .whatsapp{
-    background-color: green;
-    color: azure;
+    background-color: map-get($primary);
+    color: map-get($backgourunds-pst);
 }
 
 .facebook{
-    background-color: azure;
-    color: blue;
+    background-color: map-get($backgourunds-pst);
+    color: map-get($secundary);
     padding: 0;
     margin: 0;
 }
 
 .linkedin{
-    color: rgb(78, 78, 244);
-    background-color: azure;
+    color: map-get($terciary);
+    background-color:map-get($backgourunds-pst);
 }
 
 .img--publicidad{
