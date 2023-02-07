@@ -1,13 +1,7 @@
 @media screen and (max-width: 768px) {
+
     .grid {
-        display:grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-areas:    "encabezado"
-                                "section"
-                                "articulo"
-                                "aside"
-                                "footer";
+        @include contenedor_grid (2fr, auto auto auto auto auto, "encabezado" "section" "articulo" "aside" "footer");;
     }
 
     .ul {
@@ -37,14 +31,7 @@
 
 @media screen and (max-width: 320px) {
     .grid{
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto ;
-        grid-template-areas:    "encabezado"
-                                "section"
-                                "articulo"
-                                "aside"
-                                "footer";
+        @include contenedor_grid (2fr, auto auto auto auto auto, "encabezado" "section" "articulo" "aside" "footer");
     }
 
     .ul {

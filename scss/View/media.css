@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-  .grid {
+  include .grid {
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: auto auto auto auto auto;

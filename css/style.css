@@ -135,21 +135,9 @@
   padding: 2px;
 }
 
-.whatsapp {
-  background-color: green;
-  color: azure;
-}
-
 .facebook {
-  background-color: azure;
-  color: blue;
   padding: 0;
   margin: 0;
-}
-
-.linkedin {
-  color: rgb(78, 78, 244);
-  background-color: azure;
 }
 
 .img--publicidad {
@@ -220,7 +208,7 @@
 @media screen and (max-width: 320px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: "encabezado" "section" "articulo" "aside" "footer";
   }
