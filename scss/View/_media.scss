@@ -87,10 +87,6 @@
         
     }
 
-    .quienes--somos{
-        overflow-y: hidden;
-    }
-
     .div--petshop--cards{
         display: flex;
         overflow-wrap: break-word;
@@ -100,11 +96,10 @@
 
     .div--sections1y2{
         border-style: double;
-        overflow: auto;
+        font-size: small;
     }
 
     .header--imagen {
-        overflow: hidden;
         height: 380px;
         width: 318px;
         background-repeat:space;
@@ -129,5 +124,15 @@
     .img--galeria{
         height: 230px;
         width: 230px;
+    }
+
+    .img--publicidad{
+        height: 1000px;
+        width: 310px ;
+    }
+
+    .div--para320px--texto{
+        font-size: small;
+        overflow-y: scroll;
     }
 }
