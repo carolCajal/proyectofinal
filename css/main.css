@@ -171,8 +171,9 @@
 
 .div--petshop--cards {
   display: flex;
+  overflow-y: auto;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 768px) {
@@ -217,7 +218,7 @@
     justify-content: space-around;
     color: black;
     align-items: center;
-    justify-items: center;
+    justify-items: flex-start;
   }
   .ul li {
     color: red;
@@ -230,8 +231,7 @@
     list-style-type: none;
   }
   .img--publicad--contact {
-    width: 20px;
-    height: 80px;
+    width: 316px;
   }
   .img--logo {
     height: 80px;
@@ -264,8 +264,36 @@
   }
   .div--petshop--cards {
     display: flex;
-    overflow-y: auto;
+    overflow-wrap: break-word;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .div--sections1y2 {
+    border-style: double;
+    overflow: auto;
+  }
+  .header--imagen {
+    overflow: hidden;
+    height: 380px;
+    width: 318px;
+    background-repeat: space;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLOzlQNpvJPLGXduy965Sp-mLLNl2WXzijfAq7Z3ZcfE7yBBWJt5RsVKgYq43PEnz5vQ&usqp=CAU);
+  }
+  .img--footer--logo {
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .div--footer {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .img--galeria {
+    height: 230px;
+    width: 230px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -90,20 +90,20 @@
 }
 
 .whatsapp{
-    background-color: map-get($paleta_de_colores, $primary);
-    color: map-get($paleta_de_colores, $backgourunds-pst);
+    background-color: map-get($paleta_colores, $primary);
+    color: map-get($paleta_colores, $backgourunds-pst);
 }
 
 .facebook{
-    background-color: map-get($paleta_de_colores, $backgourunds-pst);
-    color: map-get($paleta_de_colores, $secundary);
+    background-color: map-get($paleta_colores, $backgourunds-pst);
+    color: map-get($paleta_colores, $secundary);
     padding: 0;
     margin: 0;
 }
 
 .linkedin{
-    color: map-get($paleta_de_colores, $terciary);
-    background-color:map-get($paleta_de_colores, $backgourunds-pst);
+    color: map-get($paleta_colores, $terciary);
+    background-color:map-get($paleta_colores, $backgourunds-pst);
 }
 
 .img--publicidad{
@@ -137,6 +137,7 @@
 
 .div--petshop--cards{
     display: flex;
+    overflow-y: auto;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
