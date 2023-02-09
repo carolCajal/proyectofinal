@@ -22,7 +22,7 @@
   height: 400px;
   grid-area: section;
   border-style: groove;
-  background-color: coral;
+  background-color: rgba(9, 63, 239, 0.758);
 }
 
 .section2 {
@@ -35,14 +35,14 @@
 .aside {
   grid-area: aside;
   border-style: groove;
-  background-color: rgb(18, 159, 72);
+  background-color: rgb(80, 144, 255);
 }
 
 .footer {
   height: auto;
   grid-area: footer;
   border-style: groove;
-  background-color: rgb(252, 80, 255);
+  background-color: rgba(98, 148, 235, 0.868);
 }
 
 .header--imagen {
@@ -60,12 +60,12 @@
   justify-items: center;
 }
 .ul li {
-  color: red;
+  color: rgb(85, 0, 255);
   padding: 10px;
   margin: 8px;
   border-style: dashed;
   border-radius: 15px;
-  background-color: rgb(12, 234, 64);
+  background-color: rgba(138, 194, 240, 0.804);
   list-style: none;
   list-style-type: none;
 }

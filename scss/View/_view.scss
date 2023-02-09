@@ -18,7 +18,7 @@
     height: 400px;
     grid-area: section;
     border-style: groove;
-    background-color: coral
+    background-color: rgba(9, 63, 239, 0.758);
 }
 
 .section2 {
@@ -31,13 +31,13 @@
 .aside {
     grid-area: aside;
     border-style: groove;
-    background-color: rgb(18, 159, 72);
+    background-color: rgb(80, 144, 255);
 }
 
 .footer {
     height: auto;
     grid-area: footer;
     border-style: groove;
-    background-color: rgb(252, 80, 255);
+    background-color: rgba(98, 148, 235, 0.868);
 }
 
