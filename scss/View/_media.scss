@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 412px) {
     .grid{
         @include contenedor_grid (2fr, auto auto auto auto auto, "encabezado" "section" "articulo" "aside" "footer");
     }
@@ -89,8 +89,7 @@
 
     .div--petshop--cards{
         display: flex;
-        overflow-wrap: break-word;
-        flex-wrap: wrap;
+        overflow-y: hidden;
         justify-content: space-around;
     }
 
@@ -101,7 +100,7 @@
 
     .header--imagen {
         height: 380px;
-        width: 318px;
+        width: 410px;
         background-repeat:space;
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLOzlQNpvJPLGXduy965Sp-mLLNl2WXzijfAq7Z3ZcfE7yBBWJt5RsVKgYq43PEnz5vQ&usqp=CAU);
     }
@@ -140,5 +139,9 @@
         display: flex;
         text-align: center;
         font-size:small;
+    }
+
+    .display--none{
+        display: none;
     }
 }
