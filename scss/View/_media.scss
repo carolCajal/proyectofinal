@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
 
     .grid {
-        @include contenedor_grid (2fr 1fr, auto auto auto auto, "encabezado encabezado " "section aside" "articulo aside" "footer footer");                                                                               
+        @include contenedor_grid (4fr 1fr, auto auto auto auto, "encabezado encabezado " "section aside" "articulo aside" "footer footer");                                                                               
     }
 
     .ul {
